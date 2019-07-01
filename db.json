@@ -1,14 +1,406 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ], 
-  "something": {
-      "pic": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "get_pictures": {
+    "picture_list": [
+      {
+        "id": 1,
+        "name": "Крейсер в море ночью",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/14.jpg",
+        "place": "Нижнетагильский художественный музей изобразительных искусств, Нижний Тагил",
+        "year": "Н/Д",
+        "size": "23 х 50 см"
+      },
+      {
+        "id": 2,
+        "name": "Ялта. Горы ночью",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/4b1b54a4ddb7a83909e362882c61589a.jpg",
+        "place": "Омский областной музей изобразительных искусств, Омск",
+        "year": "Н/Д",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 3,
+        "name": "Шхуна под парусами",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/000100582.jpg",
+        "place": "Центральный военно-морской музей, Санкт-Петербург",
+        "year": "Н/Д",
+        "size": "33 x 48 см"
+      },
+      {
+        "id": 4,
+        "name": "Шторм. Парусник",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/9362.jpg",
+        "place": "Львовская государственная картинная галерея, Львов",
+        "year": "Н/Д",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 5,
+        "name": "Туманное утро",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/331435.jpeg",
+        "place": "Национальный художественный музей Республики Беларусь, Минск",
+        "year": "Н/Д",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 6,
+        "name": "Севастополь",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/1466774163814015350.jpg",
+        "place": "Областной краеведческий музей, Липецк",
+        "year": "Н/Д",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 7,
+        "name": "После кораблекрушения",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/335.jpg",
+        "place": "Горловский художественный музей, Горловка",
+        "year": "Н/Д",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 8,
+        "name": "После бури",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/9392.jpg",
+        "place": "Херсонский областной художественный музей им. А. А. Шовкуненко, Херсон",
+        "year": "Н/Д",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 9,
+        "name": "Пейзаж с парусником",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/Ivan-Aivazovsky-Landscape-with-a-sailboat.jpg",
+        "place": "Дворец-музей, Гатчина",
+        "year": "Н/Д",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 10,
+        "name": "Ночь на море",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/331376.jpeg",
+        "place": "Ярославский художественный музей, Ярославль",
+        "year": "Н/Д",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 11,
+        "name": "Ночной пейзаж. Венеция",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/4caddc149a57570a0c7460496fd55ada.jpg",
+        "place": "Нижегородский государственный художественный музей, Нижний Новгород",
+        "year": "Н/Д",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 12,
+        "name": "Нева",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/Aivazovskiy_Ivan_41.jpg",
+        "place": "Таганрогская картинная галерея, Таганрог",
+        "year": "Н/Д",
+        "size": "54 х 44 см"
+      },
+      {
+        "id": 13,
+        "name": "Морской пейзаж",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/271.jpg",
+        "place": "Дворец-музей, Гатчина",
+        "year": "Н/Д",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 14,
+        "name": "Море с кораблем",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/9387.jpg",
+        "place": "Бурятский республиканский художественный музей, Улан-Удэ",
+        "year": "Н/Д",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 15,
+        "name": "Кофейня в Крыму",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/%D0%9A%D0%BE%D1%84%D0%B5%D0%B9%D0%BD%D1%8F_%D0%B2_%D0%9A%D1%80%D1%8B%D0%BC%D1%83.jpg",
+        "place": "Николаевский художественный музей, Николаев",
+        "year": "Н/Д",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 16,
+        "name": "Корабль у берега",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/9105.jpg",
+        "place": "Саратовский художественный музей, Саратов",
+        "year": "Н/Д",
+        "size": "54 х 72 см"
+      },
+      {
+        "id": 17,
+        "name": "Вид Вико",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/81.jpg",
+        "place": "Тверская областная картинная галерея, Тверь",
+        "year": "Н/Д",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 18,
+        "name": "Вечер. На рейде",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/15c4429d8e7f24251e0623df34aa5687.jpg",
+        "place": "Дагестанский музей изобразительных искусств, Махачкала",
+        "year": "Н/Д",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 19,
+        "name": "Вечер на море",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/1354812807-0331439.jpg",
+        "place": "Волгоградский музей изобразительный искусств, Волгоград",
+        "year": "Н/Д",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 20,
+        "name": "Венецианская ночь",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/f1c3240f-98b6-4e5b-b120-873aca44c86e.jpg",
+        "place": "Государственный центральный музей музейной культуры им. М. И. Глинки, Москва",
+        "year": "Н/Д",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 21,
+        "name": "Бушующее море",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/vi.jpg",
+        "place": "Дагестанский музей изобразительных искусств, Махачкала",
+        "year": "Н/Д",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 22,
+        "name": "Буря на море лунной ночью",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/25.jpg",
+        "place": "Нижнетагильский художественный музей изобразительных искусств, Нижний Тагил",
+        "year": "1849",
+        "size": "28 x 39 см"
+      },
+      {
+        "id": 23,
+        "name": "Баржи у морского берега",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/03.jpg",
+        "place": "Екатеринбургский музей изобразительных искусств, Екатеринбург",
+        "year": "1834",
+        "size": "37,5 х 50,6 см"
+      },
+      {
+        "id": 24,
+        "name": "Ялта",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/b258727cc4925c93e52464bcdd032ae6.jpg",
+        "place": "Тюменский музей изобразительных искусств, Тюмень",
+        "year": "1899",
+        "size": "58 х 94 см"
+      },
+      {
+        "id": 25,
+        "name": "Морской вид",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/e1752360f153a7edf41dd552aead2a88.jpg",
+        "place": "Нижнетагильский художественный музей изобразительных искусств, Нижний Тагил",
+        "year": "1899",
+        "size": "38 х 50 см"
+      },
+      {
+        "id": 26,
+        "name": "Лунная ночь",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/lunar-night-1899.jpg",
+        "place": "Таганрогская картинная галерея, Таганрог",
+        "year": "1899",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 27,
+        "name": "Кавказские горы с моря",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/18400e8f289798ee573a498903e92db3.jpg",
+        "place": "Феодосийская картинная галерея, Феодосия",
+        "year": "1899",
+        "size": "59 х 94 см"
+      },
+      {
+        "id": 28,
+        "name": "Закат на море",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/e83aaade28903bd511727ef993161b26.jpg",
+        "place": "Государственный Литературный музей, Москва",
+        "year": "1899",
+        "size": "23 х 35 см"
+      },
+      {
+        "id": 29,
+        "name": "Буря",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/254c26d4389b1f7974d6e3b4205e4e64.jpg",
+        "place": "Омский областной музей изобразительных искусств, Омск",
+        "year": "1899",
+        "size": "41 х 58 см"
+      },
+      {
+        "id": 30,
+        "name": "Среди волн",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/110152605.jpg",
+        "place": "Феодосийская картинная галерея, Феодосия",
+        "year": "1898",
+        "size": "284 х 429 см"
+      },
+      {
+        "id": 31,
+        "name": "Морской пейзаж",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/1898_2.jpg",
+        "place": "Новгородский государственный объединенный музей-заповедник, Новгород",
+        "year": "1898",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 32,
+        "name": "Заход солнца на море",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/137.jpg",
+        "place": "Днепропетровский художественный музей, Днепропетровск",
+        "year": "1898",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 33,
+        "name": "Океан",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/cc811f51ef09bde08d8ef878db27808c.jpg",
+        "place": "Государственное музейное объединение «Художественная культура Русского Севера», Архангельск",
+        "year": "1896",
+        "size": "67,5 х 100 см"
+      },
+      {
+        "id": 34,
+        "name": "Море. Закат",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/d55bc148f2f3c93f6355f746725e970b.jpg",
+        "place": "Государственное музейное объединение «Художественная культура Русского Севера», Архангельск",
+        "year": "1896",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 35,
+        "name": "Корабль в бурю",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/a37ce97f74795fe7a8fdf734227123ca.jpg",
+        "place": "Томский областной художественный музей, Томск",
+        "year": "1896",
+        "size": "79 х 97 см"
+      },
+      {
+        "id": 36,
+        "name": "Прибой",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/ff61175f77aae85702b8420757b8ae18.jpg",
+        "place": "Калужский областной художественный музей, Калуга",
+        "year": "1895",
+        "size": "34,5 х 57,5 см"
+      },
+      {
+        "id": 37,
+        "name": "Морской вид",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/ed40540dd49472862d3452f77a955509.jpg",
+        "place": "Дальневосточный художественный музей, Хабаровск",
+        "year": "1895",
+        "size": "100 х 155 см"
+      },
+      {
+        "id": 38,
+        "name": "Золотой Рог",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/0a6a2bc3b830d29e1f7d1d5f5fc1adad.jpg",
+        "place": "Тверская областная картинная галерея, Тверь",
+        "year": "1895",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 39,
+        "name": "Волна",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/e508b5fff0cdff7628a81fce0b198f29.jpg",
+        "place": "Частные собрания",
+        "year": "1895",
+        "size": "74 х 96 см"
+      },
+      {
+        "id": 40,
+        "name": "Буря на море ночью",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/9c812bcacad308813f246d6bb2a1d943.jpg",
+        "place": "Нижегородский государственный художественный музей, Нижний Новгород",
+        "year": "1895",
+        "size": "47,5 х 75 см"
+      },
+      {
+        "id": 41,
+        "name": "Кораблекрушение",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/the-shipwreck-1894.jpgLarge.jpg",
+        "place": "Государственный Русский музей, Санкт-Петербург",
+        "year": "1894",
+        "size": "16,5 x 25 см"
+      },
+      {
+        "id": 42,
+        "name": "Прибой",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/c6e1814fdbcb2adcd6728d769218204a.jpg",
+        "place": "Государственный музей-заповедник Ростовский Кремль, Ростов",
+        "year": "1893",
+        "size": "65 х 100 см"
+      },
+      {
+        "id": 43,
+        "name": "Ниагарский водопад",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/336537.jpg",
+        "place": "Национальная галерея Армении, Ереван",
+        "year": "1893",
+        "size": "35 х 52 см"
+      },
+      {
+        "id": 44,
+        "name": "В волнах",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/158c1c6511008210a02aacd660064b6a.jpg",
+        "place": "Тюменский музей изобразительных искусств, Тюмень",
+        "year": "1893",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 45,
+        "name": "Буря на море",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/7cf902182c4e227f9c0a8fe31b9a3a63.jpg",
+        "place": "Собрание армянской церкви, Бостон",
+        "year": "1893",
+        "size": "44,5 х 48 см"
+      },
+      {
+        "id": 46,
+        "name": "Штиль. Вид Капри",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/6700a6eb68983bf359170774870898e4.jpg",
+        "place": "Национальная галерея Армении, Ереван",
+        "year": "1892",
+        "size": "216 х 345 см"
+      },
+      {
+        "id": 47,
+        "name": "Остров Иския",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/Ivan-Aivazovsky-Island-of-Ischia.jpg",
+        "place": "Феодосийская картинная галерея, Феодосия",
+        "year": "1892",
+        "size": "134,5 х 232 см"
+      },
+      {
+        "id": 48,
+        "name": "Морской вид",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/sea-view-1892.jpg",
+        "place": "Красноярский художественный музей им. В. И. Сурикова, Красноярск",
+        "year": "1892",
+        "size": "Н/Д см"
+      },
+      {
+        "id": 49,
+        "name": "Марина",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/39de584e69f6f255e9264735abecadef.jpg",
+        "place": "Костромской государственный объединенный художественный музей, Кострома",
+        "year": "1892",
+        "size": "14,6 х 11,2 см"
+      },
+      {
+        "id": 50,
+        "name": "Контрабандисты",
+        "url": "http://ayvazovskiy.su/wp-content/uploads/2017/prev/498ce04616b1ed12ac5ae94d5bde49ce.jpg",
+        "place": "Частные собрания",
+        "year": "1890-е",
+        "size": "45 х 59 см"
+      }
     ]
   }
 }
